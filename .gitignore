@@ -1,0 +1,5 @@
+*.swp
+*.FCBak
+.vscode/
+*.tmp
+.DS_Store/
