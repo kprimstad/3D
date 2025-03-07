@@ -25,8 +25,8 @@ G1 Z0.3 ; Raise and begin printing.
 
 
 # End-GCODE
-M104 S0 ; turn off temperature
-M140 S0 ;
+M104 S0 ; turn off extruder temperature
+M140 S0 ; turn off bed temperature
 G28 X0  ; home X axis 
 G0 Y200;  move bed out
 G91; 
